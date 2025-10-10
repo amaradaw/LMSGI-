@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Horario de clase</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:15</td>
+                <td rowspan="2">ADA</td>
+                <td rowspan="2">SIMR</td>
+                <td rowspan="3">PLE</td>
+                <td rowspan="3">PLE</td>
+                <td rowspan="2">ADA</td>
+
+            </tr>
+            <tr>
+                <td>9:15</td>
+
+            </tr>
+            <tr>
+                <td>10:15</td>
+                <td>PLE</td>
+                <TD>ADA</TD>
+                <TD>PLE</TD>
+
+            </tr>
+            <tr>
+                <td>11:15</td>
+                <td colspan="5">RECREO</td>
+
+            </tr>
+            <tr>
+                <td>11:45</td>
+                <td rowspan="3">SIMR</td>
+                <td >ADA</td>
+                <td rowspan="2">ADA</td>
+                <td rowspan="3">ADA</td>
+                <TD>PLE </TD>
+
+
+            </tr>
+            <tr>
+                <td>12:45</td>
+                <td rowspan="2">PLE </td>
+                <td rowspan="2">SIMR</td>
+
+            </tr>
+            <tr>
+                <td>13:45</td>
+                <td>IUA </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
