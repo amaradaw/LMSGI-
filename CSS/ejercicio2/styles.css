@@ -1,17 +1,24 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightpink;
+    padding : 20px;
+}
+
 .navlist {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    gap: 10px;
 }
 
 .navlist a {
     text-decoration: none;
     color: black;
     font-size: 25px;
-    background-color: lightpink;
     padding: 10px;
 }
 
 .navlist a:hover {
-    background-color: lightblue;
+    color : rgb(157, 228, 252);
 }
