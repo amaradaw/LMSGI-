@@ -1,0 +1,27 @@
+.cta-container {
+    background-image: url("imagenesc/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text {
+    position: absolute;
+    color : black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cta-button {
+    position: absolute;
+    background-color: #626bb2;
+    color : white;
+    border-radius: 10px;
+    
+}
