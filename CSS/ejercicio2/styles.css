@@ -11,3 +11,7 @@
     background-color: lightpink;
     padding: 10px;
 }
+
+.navlist a:hover {
+    background-color: lightblue;
+}
