@@ -6,7 +6,7 @@
 nav { 
     display: flex;
     justify-content: space-between;
-    background-color: rgb(183, 222, 255);
+    background-color: rgb(250, 149, 228);
      padding : 15px;
      align-items: center;
    
@@ -21,7 +21,7 @@ nav {
 
 .navlist a {
     text-decoration: none;
-    color: rgb(255, 104, 104);
+    color: black;
     font-size: 25px;
     padding: 10px;
 }
