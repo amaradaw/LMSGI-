@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-.titulo {
+#gallery-section .titulo {
     text-align: center;
     font-size: 2rem;
-    padding: 10px;
+    padding: 45px;
 }
 
-.gallery-list {
+#gallery-section .gallery-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
