@@ -8,7 +8,7 @@
 #card-section .titulo {
     text-align: center;
     font-size: 2rem;
-    padding: 10px 0 10px;
+    padding: 20px 0 20px;
 }
 
 #card-section .card-list {
@@ -29,3 +29,7 @@
     gap : 20px;
 }
 
+.card-item img {
+    width: 300px;
+    height: auto;
+}
