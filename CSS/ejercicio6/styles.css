@@ -80,7 +80,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
+    gap: 35px;
     background-color: burlywood;
     padding: 20px;
 }
@@ -92,7 +92,8 @@ nav {
 #gallery-section .gallery-list .gallery-item img{
     width: 400px;
     height: 300px;
-    border-radius: 8px;
+    border-radius: 20px;
+    gap: 20px;
 }
 
 #card-section {
