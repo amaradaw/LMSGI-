@@ -2,20 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: burlywood;
+    background-color: rgb(228, 197, 157);
 }
 
 #card-section .titulo {
     text-align: center;
     font-size: 2rem;
-    padding: 20px 0 20px;
+    padding: 25px 0 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #card-section .card-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
+    gap: 100px;
 }
 
 .card-item {
@@ -31,5 +32,25 @@
 
 .card-item img {
     width: 300px;
-    height: auto;
+    height: 250px;
 }
+
+button {
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+h3 {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color : brown;
+}
+
