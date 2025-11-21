@@ -1,12 +1,14 @@
 *{ 
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    box-sizing: border-box;
+}
 
 nav { 
     display: flex;
     justify-content: space-between;
-    background-color: brown;
-     padding : 15px;
+    background-color: rgb(173, 63, 63);
+     padding : 6px;
      align-items: center;
    
 }
@@ -22,7 +24,8 @@ nav {
     text-decoration: none;
     color: black;
     font-size: 25px;
-    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
 }
 
 .navlist a:hover {
@@ -44,7 +47,8 @@ nav {
 
 .cta-text {
     color: black;
-    font-size: 28px;
+    font-size: 35px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     text-align: center; 
     margin: 20px; 
@@ -52,7 +56,7 @@ nav {
 }
 
 .cta-button {
-    background-color: brown;
+    background-color: rgb(173, 63, 63);
     color: black;
     border: none;
     border-radius: 10px;
@@ -63,10 +67,13 @@ nav {
     text-transform: uppercase;
 }
 
+
 #gallery-section .titulo {
     text-align: center;
     font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px 0 10px;
+    background-color: burlywood;
 }
 
 #gallery-section .gallery-list {
@@ -74,10 +81,12 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
+    background-color: burlywood;
+    padding: 20px;
 }
 
 #gallery-section .gallery-list .gallery-item {
-    width: calc(33%- 32px);
+    width: calc(20%- 32px);
 }
 
 #gallery-section .gallery-list .gallery-item img{
@@ -86,18 +95,26 @@ nav {
     border-radius: 8px;
 }
 
+#card-section {
+   background-color: rgb(136, 122, 105);
+   padding: 40px 0 150px;
+}
+
 #card-section .titulo {
+    background-color: rgb(136, 122, 105);
     text-align: center;
     font-size: 2rem;
-    padding: 25px 0 20px;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 0 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #card-section .card-list {
+    background-color: rgb(136, 122, 105);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
+    gap: 150px;
+    padding: 10px;
 }
 
 .card-item {
@@ -109,6 +126,7 @@ nav {
     align-items: center;
     padding: 20px;
     gap : 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .card-item img {
@@ -118,12 +136,13 @@ nav {
 
 button {
     padding: 10px 20px;
-    background-color: brown;
+    background-color: rgb(173, 63, 63);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 button:hover {
@@ -131,6 +150,6 @@ button:hover {
 }
 
 h3 {
-    font-family: 'Arial Black', Gadget, sans-serif;
-    color : brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color : rgb(173, 63, 63);
 }
