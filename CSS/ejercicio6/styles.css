@@ -154,3 +154,11 @@ h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color : rgb(173, 63, 63);
 }
+
+.footer {
+    background-color: rgb(173, 63, 63);
+    color : black;
+    text-align: center;
+    padding: 15px;
+    font-size: var(--font-size-xl);
+}
