@@ -9,3 +9,13 @@ body {
     background-color : #f0f0f0;
     color : #343a40 ;
 }
+
+.navH {
+    background-color: #f8f9fa ;
+}
+
+.nav ul li a {
+    font-size: 1.2em;
+    padding : 25px 10px;
+    border : solid 3px;
+}
