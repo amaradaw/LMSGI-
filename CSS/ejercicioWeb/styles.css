@@ -19,3 +19,19 @@ body {
     padding : 25px 10px;
     border : solid 3px;
 }
+
+.home {
+    background-color:#007bff ;
+}
+
+.about {
+    background-color:#32cd32 ;
+}
+
+.services {
+    background-color:#8a2be2 ;
+}
+
+.contact {
+    background-color:#ffd747 ;
+}
