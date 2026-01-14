@@ -12,8 +12,23 @@ body {
 
 .navH {
     background-color: #f8f9fa ;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding-top: 20px;
+    text-decoration: none;
 }
 
+.nav-links {
+    display: flex;
+    list-style : none;
+    gap : 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color : black;
+}
 .nav ul li a {
     font-size: 1.2em;
     padding : 25px 10px;
@@ -21,11 +36,11 @@ body {
 }
 
 .home {
-    background-color:#007bff ;
+    border-bottom:#007bff ;
 }
 
 .about {
-    background-color:#32cd32 ;
+    border-bottom:#32cd32 ;
 }
 
 .services {
@@ -45,7 +60,10 @@ body {
     background: #e9ecef;
     padding-top: 110px;
     padding-bottom: 110px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 20px;
 }
 
 .cta-container h1 {
@@ -54,6 +72,7 @@ body {
 
 .cta-container p {
     font-size: 1.2em;
+    text-align: center;
 }
 
 .services-container {
@@ -61,8 +80,64 @@ body {
     padding-top: 34px;
     padding-bottom: 34px;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 20px;
+
 }
 
 .contact-container {
     background-color: #f8f9fa ;
+}
+
+.contact-form {
+    width: 500px;
+    padding : 20px;
+    background-color: #f1f3f5;
+}
+
+.nameP {
+    border-bottom: #32cd32 ;
+}
+
+.nameP:hover {
+    border-bottom: #007bff ;
+}
+
+.emailP {
+    border-bottom: #8a2be2  ;
+}
+
+.emailP:hover {
+    border-bottom: #007bff ;
+}
+
+.textareaP {
+    border-bottom: #ffd747 ;
+}
+
+.textareaP:hover {
+    border-bottom: #007bff ;
+}
+
+.boton {
+    background-color: #007bff;
+    color : white;
+}
+
+.boton:hover {
+    background-color: #343a40  ;
+}
+
+.footer {
+    background-color: #f1f3f5   ;
+    color : white;
+    text-align: center;
+    padding : 20px;
+}
+
+.footer a {
+    font-size: 2em;;
 }
