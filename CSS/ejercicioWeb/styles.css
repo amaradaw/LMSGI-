@@ -40,3 +40,29 @@ body {
     border-bottom: 2px solid #007bff;
     color : black;
 }
+
+.cta-container {
+    background: #e9ecef;
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+}
+
+.cta-container h1 {
+    font-size: 2.2em;
+}
+
+.cta-container p {
+    font-size: 1.2em;
+}
+
+.services-container {
+    background: #f1f3f5;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    width: 30%;
+}
+
+.contact-container {
+    background-color: #f8f9fa ;
+}
