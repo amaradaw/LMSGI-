@@ -25,6 +25,24 @@ body {
     gap : 20px;
 }
 
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color : black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-icon {
+    display: flex;
+
+}
+
 .nav-links a {
     text-decoration: none;
     color : black;
@@ -82,47 +100,65 @@ body {
     align-items: center;
     gap : 20px;
     text-align: center;
+    width: 100%;
 
 }
 
 .services-container div {
     width : 30%;
     padding-top: 15px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 10px;
 }
 
 
 
 .contact-container {
     background-color: #f8f9fa ;
-    padding-top: 40px;
-    padding-bottom: 240px;
-    padding-left: 450px;
+    height: 300px;
+    padding: 50px 300px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .contact-container h2 {
-    text-align: center;
-    padding-bottom: 100px;
-    padding-right: 430px;
+
 }
 
-.contact-form {
-    width: 50%;
-    height: 100px;
+.contact-form{
+    width: 100%;
+    max-width: 500px;
     padding : 20px;
-    background-color: #f1f3f5;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+}
+ .contact-form label {
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.1em;
+    margin-top: 10px;
+ }
+.contact-form input, .contact-form textarea {
+    border: none;
+    border-bottom: 2px solid #343a40 ;
+    padding : 10px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    font-family: inherit;
+    outline: none;
+    background-color: #f1f3f5 ;
+    transition: border-color 0.3s;
 }
 
-.nameP {
-    border-bottom: #32cd32 ;
+.contact-container input [name="name"] {
+    border-bottom: 2px solid #32cd32 ;
 }
 
 .nameP:hover {
