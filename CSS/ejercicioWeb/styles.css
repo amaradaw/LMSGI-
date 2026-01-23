@@ -54,19 +54,19 @@ body {
 }
 
 .home {
-    border-bottom:#007bff ;
+    border-bottom: 2px solid #007bff ;
 }
 
 .about {
-    border-bottom:#32cd32 ;
+    border-bottom: 2px solid #32cd32 ;
 }
 
 .services {
-    background-color:#8a2be2 ;
+    border-bottom: 2px solid #8a2be2 ;
 }
 
 .contact {
-    background-color:#ffd747 ;
+    border-bottom: 2px solid #ffd747 ;
 }
 
 .nav-links:hover {
@@ -120,7 +120,7 @@ body {
 
 .contact-container {
     background-color: #f8f9fa ;
-    height: 300px;
+    height: 500px;
     padding: 50px 300px;
     display: flex;
     justify-content: center;
@@ -128,9 +128,6 @@ body {
     flex-direction: column;
 }
 
-.contact-container h2 {
-
-}
 
 .contact-form{
     width: 100%;
@@ -157,7 +154,7 @@ body {
     transition: border-color 0.3s;
 }
 
-.contact-container input [name="name"] {
+.contact-container input[type="text"] {
     border-bottom: 2px solid #32cd32 ;
 }
 
@@ -165,16 +162,16 @@ body {
     border-bottom: #007bff ;
 }
 
-.emailP {
-    border-bottom: #8a2be2  ;
+.contact-container input[type="email"] {
+    border-bottom:2px solid #8a2be2  ;
 }
 
 .emailP:hover {
     border-bottom: #007bff ;
 }
 
-.textareaP {
-    border-bottom: #ffd747 ;
+.contact-container textarea[name="message"] {
+    border-bottom: 2px solid #ffd747 ;
 }
 
 .textareaP:hover {
@@ -190,15 +187,16 @@ body {
     background-color: #343a40  ;
 }
 
-.footer {
+footer {
     background-color: #f1f3f5   ;
-    color : white;
+    color : black;
     text-align: center;
     padding : 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
 }
 
-.footer a {
-    font-size: 2em;;
-}
+
