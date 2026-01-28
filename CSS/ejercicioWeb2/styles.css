@@ -10,3 +10,111 @@ body {
     background-color: #f5f5f5;
     color: #333;
 }
+
+header {
+    background-color: #143548;
+    display: flex;
+    align-items : center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu a {
+    color: #ffebd9;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #CCB299;
+}
+
+.cta-container {
+    background-image: url("gato fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    mask-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #143548;
+    text-align: center;
+    filter: sepia(30%);
+}
+
+button {
+  cursor: pointer;
+  background-color: #ffebd9;
+}
+
+.logo {
+  cursor: pointer;
+
+}
+
+.logo img:hover {
+    transform: rotate(360deg);
+    transition: transform 0.25s;
+}
+
+input {
+    border-radius: 4px;
+    background-color: #ffebd9;
+}
+
+.serach input:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s;
+}
+
+h1 {
+  text-shadow: 8px 4px 6px #ffebd9;
+}
+
+
+footer .footer-copy {
+    background-color: #074167;
+    color: #ffebd9;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer-menu {
+    padding-top: 50px;
+    background-color: #143548;
+    color : #ffebd9;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    gap : 200px;
+}
+
+.footer-menu div {
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+}
+
+footer .footer-menu a {
+    color: #ffebd9;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer .footer-menu a:hover {
+    color: #CCB299;
+}
+
