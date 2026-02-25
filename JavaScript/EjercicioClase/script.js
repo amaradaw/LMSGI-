@@ -1,11 +1,20 @@
-const tareas = document.getElementById("tareas");
+const listaTareas = document.getElementById("listaTareas");
 const botonAgregar = document.getElementById("agregar");
 const entrada = document.getElementById("entrada");
 const botonBorrar = document.getElementById("borrar");
+const litareas = document.createElement("li");
+const bcambiarcolo = document.getElementById("cambiarcolor");
 
 botonAgregar.addEventListener("click", agregar);
 botonBorrar.addEventListener("click", borrar);
+bcambiarcolo.addEventListener("click", colorrojo);
 
+function colorrojo(){
+    const listatareas = document.querySelectorAll("#listaTareas li");
+    for (let i = 0; i < listatareas.length; i++) {
+        listatareas[i].style.color = "red";
+    }
+}
 function agregar() {
     const ptarea = document.createElement("p");
     ptarea.textContent = entrada.value;
