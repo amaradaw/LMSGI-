@@ -199,4 +199,29 @@ footer {
     text-decoration: none;
 }
 
+@media (max-width: 800px){
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-container div {
+        width: 80%;
+    }
+
+    .contact-container {
+        padding: 50px 20px;   
+        height: auto;        
+    }
+
+    .navH ul {
+        display: none;
+    }
+
+    nav button {
+        display: block;
+    }
+}
+
 

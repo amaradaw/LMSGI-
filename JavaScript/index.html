@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Nombre:</label>
+    <input type="text" id="nombreInput">
+
+    <p id="respuestaInput"></p>
+    <button onclick="mostrarNombre()">Mostrar Nombre</button>
+    <script>
+        function mostrarNombre() {
+            const entrada = document.getElementById("nombreInput").value;
+            const respuesta = document.getElementById("respuestaInput");
+            respuesta.textContent = "Hola, " + entrada;
+        }
+    </script>
+    <!--<script>
+        function mostrarNombre() {
+            let nombre = document.getElementById("nombreInput").value;
+            document.getElementById("respuestaInput").innerHTML = "Hola, " + nombre;
+        }
+    </script>
+-->
+    <script>
+        let edad = parseInt(prompt("Ingrese su edad:"));
+        if (edad >= 18) {
+            alert("Eres mayor de edad.");
+        } else {
+            alert("Eres menor de edad.");
+        }
+    </script>
+
+
+    <label for="">Precio:</label>
+    <input type="number" id="precioInput">
+    <label for="">Descuento</label>
+    <input type="number" id="descuentoInput">
+    <p id="respuesta"></p>
+    <button onclick="calcularPrecioFinal()">Calcular Precio Final</button>
+    <script>
+        function calcularPrecioFinal() {
+            const precio = parseFloat(document.getElementById("precioInput").value);
+            const descuento = parseFloat(document.getElementById("descuentoInput").value);
+            const precioFinal = precio - (precio * (descuento / 100));
+            respuesta.textContent = "El precio final es: " + precioFinal;
+           
+        }
+    </script>
+
+    <label for="">Peso:</label>
+    <input type="number" id="pesoInput">
+    <label for="">Altura:</label>
+    <input type="number" id="alturaInput">
+    <p id="respuesta"></p>
+    <button onclick="calcularimc()"> Calcula</button>
+    <p id="respuestaRango"></p>
+
+    <script>
+        function calcularimc(){
+            const peso = parseFloat(document.getElementById("pesoInput").value);
+            const altura = parseFloat(document.getElementById("alturaInput").value);
+            const imc = peso / (altura*altura)
+            respuesta.textContent = "El indice de masa corporal es: " + imc;
+
+            if (calcularimc()< 18.5){
+                respuestaRango.textContent= "Tienes bajo peso"
+            }else if(imc >= 18.5 && imc < 25){
+                respuestaRango.textContent= "Tienes peso saludable"
+            }else{
+                respuestaRango.textContent= "Tienes sobrepeso"
+            }
+        }
+    </script>
+</body>
+</html>

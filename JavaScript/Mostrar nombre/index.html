@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="nombre">Nombre :</label>
+    <input type="text" id="nombre" name="nombre">
+    <button onclick="mostrarNombre()">Mostrar Nombre</button>
+    <p id ="respuesta"></p>
+    <script>
+        function mostrarNombre() {
+            const entrada = document.getElementById("nombre");
+            const respuesta = document.getElementById("respuesta");
+            respuesta.textContent = entrada.value;
+        }
+
+    </script>
+</body>
+</html>

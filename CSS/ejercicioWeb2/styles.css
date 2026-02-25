@@ -31,6 +31,10 @@ header {
     font-weight: 500;
 }
 
+.hamburger {
+    display: none;
+}
+
 .menu a:hover {
     color: #CCB299;
 }
@@ -70,7 +74,7 @@ input {
     background-color: #ffebd9;
 }
 
-.serach input:hover {
+.search input:hover {
     transform: scale(1.1);
     transition: transform 0.25s;
 }
@@ -116,5 +120,50 @@ footer .footer-menu a {
 
 footer .footer-menu a:hover {
     color: #CCB299;
+}
+
+@media (max-width: 800px){
+
+     header {
+        justify-content: space-between;
+
+    }
+
+    header nav .menu {
+        display: none;
+    }
+
+    header .search {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header .search input {
+        display: none;
+    }
+
+    header .search button {
+       display: block;
+
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    footer .footer-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: auto; 
+        padding: 40px 0;
+    }
+
+
 }
 
