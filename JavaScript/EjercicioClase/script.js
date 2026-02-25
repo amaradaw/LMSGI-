@@ -1,20 +1,29 @@
 const tareas = document.getElementById("tareas");
-const button = document.getElementById("agregar");
+const botonAgregar = document.getElementById("agregar");
 const entrada = document.getElementById("entrada");
+const botonBorrar = document.getElementById("borrar");
 
-button.addEventListener("click", agregar);
+botonAgregar.addEventListener("click", agregar);
+botonBorrar.addEventListener("click", borrar);
 
 function agregar() {
     const ptarea = document.createElement("p");
-    const node = document.createTextNode(entrada.value);
+    ptarea.textContent = entrada.value;
 
-    ptarea.appendChild(node);
-    tareas.appendChild(ptarea);
-    
     const enlace = document.createElement("a");
-    const node2 = document.createTextNode("Enlace a.."); 
+    enlace.textContent = " Enlace a..";
+    enlace.href = "https://www.google.com";
+
     const img = document.createElement("img");
-    tareas.appendChild(img);
+    img.src = "https://www.florespedia.com/Imagenes/flores-bonitas.jpg";
+
     enlace.appendChild(img);
     ptarea.appendChild(enlace);
+    tareas.appendChild(ptarea);
+}
+
+function borrar() {
+    if (tareas.lastChild) {
+        tareas.removeChild(tareas.lastChild);
+    }
 }
