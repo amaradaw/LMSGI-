@@ -12,8 +12,12 @@ function agregar() {
     tareas.appendChild(ptarea);
     
     const enlace = document.createElement("a");
-    const node2 = document.createTextNode("Enlace a..");
+    const node2 = document.createTextNode("Enlace a.."); 
+    const img = document.createElement("img");
+    tareas.appendChild(img);
+    enlace.appendChild(img);
     enlace.appendChild(node2);
+        img.setAttribute("src", "https://www.florespedia.com/Imagenes/flores-bonitas.jpg");
     enlace.setAttribute("href", "https://www.google.com");
     ptarea.appendChild(enlace);
 }
