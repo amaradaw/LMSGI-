@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.botones {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+#btn1 {
+    background-color: plum;
+    padding: 7px;
+     border-radius: 10px;
+}
+
+#btn2 {
+    background-color: lightblue;
+    padding: 7px;
+     border-radius: 10px;
+}
+
+#btn3 {
+    background-color: pink;
+     padding: 7px;
+      border-radius: 10px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

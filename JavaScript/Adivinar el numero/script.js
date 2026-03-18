@@ -1,4 +1,4 @@
- const numeroSecreto = Math.floor(Math.random() * 10) + 1;
+const numeroSecreto = Math.floor(Math.random() * 10) + 1;
 let intentos = 0;
 
         document.getElementById("formulario").addEventListener("submit", function(event) {
